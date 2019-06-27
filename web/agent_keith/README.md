@@ -14,7 +14,7 @@
 
 Pada website yang diarahkan hanya menampilkan pesan user agent yang dipakai dan terdapat 1 blok yang menampilkan bahwa akses flag ditolak.
 
-Challenge ini cukup simple, karena dengan menampilkan pesan **user agent** kita tahu bahwa kita perlu mengganti header request `User-Agent` dengan yang diinginkan.
+Challenge ini cukup simple, karena dengan menampilkan pesan **user agent** kita tahu bahwa kita perlu mengganti header request `User-Agent` dengan yang diinginkan. Baca mengenai User Agent [disini](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent).
 
 Dengan melihat source, kita mendapatkan 1 baris yang kemungkinan besar adalah _user agent_ yang perlu dipakai. 
 
